@@ -1,0 +1,194 @@
+.header {
+	padding-bottom: 20px;
+}
+
+.home-sb {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.home {
+	padding-right: 30px;
+}
+
+.searchBtnIcon {
+	padding-left: 4px;
+	width: 60%;
+	height: 60%;
+	cursor: pointer;
+}
+
+.adminBtn {
+	display: flex;
+}
+
+.adminBtnIcon {
+	width: 30px;
+	cursor: pointer;
+	margin-left: auto;
+}
+.searchBtn {
+	width: 60px;
+	height: 60px;
+}
+.searchBar {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	width: 400px;
+	font-size: large;
+	height: 40px;
+}
+
+.menuBar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.menuElem, .leftBtn, .rightBtn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid black;
+	margin: 4px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.menuElem {
+	height: 30px;
+	width: 70px;
+}
+
+.leftBtn, .rightBtn {
+	width: 30px;
+	height: 30px;
+}
+
+.leftBtnIcon, .rightBtnIcon {
+	width: 22px;
+	height: 22px;
+}
+
+.webtoons {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-gap: 10px;
+	grid-auto-rows: minmax(150px, auto);
+	width: 900px;
+	margin: 0 auto;
+	height: 150px;
+}
+
+.webtoon {
+	text-align: center;
+	display: flex;
+}
+
+.webtoonImg {
+	border: 1px solid black;
+	margin-bottom: 4px;
+	width:140px;
+	height: 150px;
+}
+
+.webtoonTitle {
+	padding-bottom: 4px;
+}
+
+.webtoonAuthor {
+	text-align: right;
+}
+
+.wt-information {
+	width: 500px;
+	text-align: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	display: grid;
+	grid-template-rows: 1fr 3fr 1fr;
+}
+
+.title-name {
+	padding-top: 2px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding-bottom: 15px;
+}
+
+.summary {
+	padding-bottom: 15px;
+}
+
+.genre {
+	color: gray;
+}
+
+.authorText {
+	position: relative;
+	width: 150px;
+	height: 100px;
+	border: 1px solid black;
+	border-radius: 10px;
+	background:#333333;
+	color: white;
+	text-align: left;
+	padding: 8px;
+}
+
+.authorText:after {
+	border-top: 15px solid #333333;
+	border-left: 15px solid transparent;
+	border-right: 0px solid transparent;
+	border-bottom: 0px solid transparent;
+	content: "";
+	position: absolute;
+	top: 10px;
+	left: -15px;
+}
+
+.episodeOneButton {
+	margin: 0 auto;
+	display: flex;
+	width: 300px;
+	border: 1px solid gray;
+	height: 50px;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+.home-sb form {
+	display: flex;
+}
+
+.episodes {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-gap: 10px;
+	grid-auto-rows: minmax(200px, auto);
+	width: 900px;
+	margin: 0 auto;
+	margin-top: 150px;
+}
+
+.episode {
+	text-align: center;
+	cursor: pointer;
+}
+
+.episodeImg {
+	border: 1px solid black;
+  height: 150px;
+  width: 140px;
+  margin-bottom: 4px;
+}
+
+.episodeTitle {
+	padding-bottom: 4px;
+}
+
+input:focus {
+	outline: none;
+}

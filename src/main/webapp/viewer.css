@@ -1,0 +1,60 @@
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 75px;
+	padding: 1rem;
+	color: black;
+	background: white;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.content {
+	display: flex;
+	padding-top: 150px;
+	background: black;
+	justify-content: center;
+}
+
+.backBtn {
+	display: flex;
+}
+
+.backBtnIcon {
+	width: 75px;
+	height: 75px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.wbar {
+	display: flex;
+	position: fixed;
+	bottom: 100px;
+	width: 100%;
+	height: 80px;
+	z-index: 4;
+	justify-content: center;
+}
+
+.wbar-content {
+	background: white;
+	width: 200px;
+	height: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.wbar-content div {
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
+
+.wbar img {
+	width: 40px;
+	height: 40px;
+}
